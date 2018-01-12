@@ -1,0 +1,259 @@
+/* --------------------------------------------------------------------------------------------- */
+/*  GENERAL STYLES */
+/* --------------------------------------------------------------------------------------------- */
+.file-height {
+	height: 50px;
+}
+.right-light {
+	color: #dd4b39;
+}
+.red {
+	color: #dd4b39 !important;
+}
+/* --------------------------------------------------------------------------------------------- */
+/*  SPECIFIC STYLES */
+/* --------------------------------------------------------------------------------------------- */
+
+/* Modal */ 
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Tabs*/
+
+.tab-flags {
+  margin-top: -3px;
+  margin-right: 5px;
+}
+
+/* Menu */
+
+.sidebar-menu .treeview-menu > li {
+    margin-left: 12px;
+}
+
+.icheckbox_minimal-red, .iradio_minimal-red {
+    background: url(../images/red.png) no-repeat;
+}
+
+/* DataTable */
+
+.table > thead > tr > th { 
+    vertical-align: top;
+}
+
+.btn-group-1 {
+    min-width: 42px !important;
+    width: 42px !important;    
+}
+
+.btn-group-2 {
+   	min-width: 74px !important;
+   	width: 74px !important;
+}
+
+.btn-group-3 {
+	min-width: 106px !important;
+	width: 106px !important;
+}
+
+.btn-group-4 {
+	min-width: 138px !important;
+	width: 138px !important;
+}
+
+.btn-group-5 {
+	min-width: 170px !important;
+	width: 170px !important;
+}
+
+.btn-group-6 {
+	min-width: 202px !important;
+	width: 202px !important;
+}
+
+.btn-group-7 {
+	min-width: 234px !important;
+	width: 234px !important;
+}
+
+.btn-group-8 {
+	min-width: 268px !important;
+	width: 268px !important;
+}
+
+/* Styling for Select2 with error */
+
+.form-group.has-success span.select2-selection {
+	border-color: #00a65a !important;
+	box-shadow: none !important;
+}
+
+.form-group.has-error span.select2-selection {
+	border-color: #dd4b39 !important;
+	box-shadow: none !important;
+}
+
+/* Logo styles */ 
+
+.logo-lg img,
+.logo-mini img {
+	height: 35px;
+}
+
+/* Footer styles */ 
+
+.main-footer {
+	text-align: center;
+}
+
+/* Product Images */
+
+/* Jfiler styles  */
+.jFiler {
+    font-size: 14px;
+}
+.jFiler-items-grid .jFiler-item .jFiler-item-container {
+  	height: 255px;
+	margin: 0 20px 5px 0;	
+ 	max-width: 230px;
+    padding: 4px;
+}
+
+.jFiler-items-grid .jFiler-item .jFiler-item-container .jFiler-item-thumb {
+	min-height: 200px;
+	width: 211px;
+}
+
+.jFiler-items-grid .jFiler-item .jFiler-item-container .jFiler-item-thumb img {
+ 	max-height: 200px;
+	max-width: 200px;
+	width: 100%;
+}
+.error-image {
+	font-family: sans-serif;
+	font-size: 10px;
+	height: 29px;
+ 	margin: 0 20px 30px 0;
+	padding: 10px;
+	width: 221px;
+}
+.image-name {
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 45px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Select multiple */
+
+.select-multiple-center {
+    padding-top: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
+}  
+
+/* URL detail */
+.url-style a input {
+	color: #3c8dbc !important;
+}
+
+/* Styles border list buttons */
+
+.btn-group-vertical > .btn, .btn-group > .btn {
+    border: 1px solid #000;
+}
+
+/* Product Downloads */
+
+.color-file-image,.color-file-image:hover {
+	color: #555555;
+}
+
+#addMultipleProductDownloadsForm .jFiler-item-thumb-image {
+	display:none;
+}
+
+.mailbox-attachment-icon {
+    font-size: 100px;
+}
+
+.fa-file-txt-o:before {
+    content: "\f0f6";
+}
+
+.fa-file-doc-o:before {
+    content: "\f1c2";
+}
+
+.fa-file-docx-o:before {
+    content: "\f1c2";
+}
+
+.file-icon {
+	font-size: 50px !important;
+}
+
+/* Product Parameter styles */
+
+.panel-accordion {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 0;
+}
+
+.parameterOptionList > li {
+ 	margin-bottom: 10px !important;
+}
+
+.form-group.option-container {
+    margin-bottom: 0;
+    margin-left: 1px;
+    width: 100%;
+}
+.form-group.option-container input {
+    float: right;
+    width: 97%;
+}
+.option-container .tools {
+	float: right;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    position: absolute;
+    right: 2%;
+}
+.option-container .help-block {
+    display: -moz-inline-stack;
+}
+
+/* List address */
+.ellipsis-right {
+	overflow: hidden; 
+	text-align: right;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+	width: 60%;
+}
+.ellipsis-center {
+	overflow: hidden; 
+	text-align: center;
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+}

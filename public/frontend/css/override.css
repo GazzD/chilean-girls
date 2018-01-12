@@ -1,0 +1,11 @@
+.help-block-error,.right-light{
+    color: #BB0000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.help-block-success{
+    color: #00BB00;
+    font-size: 10px;
+    font-weight: bold;
+}
